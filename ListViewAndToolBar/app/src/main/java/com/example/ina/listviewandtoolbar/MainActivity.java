@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         list_mahasiswa.put("Audrey", "004");
         list_mahasiswa.put("Sez", "005");
         list_mahasiswa.put("Shiny", "006");
+        list_mahasiswa.put("aku", "007");
 
         List<HashMap<String, String>> list_item = new ArrayList<>();
         SimpleAdapter adapter = new SimpleAdapter(this, list_item, R.layout.listview, new String[]
